@@ -1,0 +1,3 @@
+/*! digital-download 1.0.0 2019-11-18 3:54:58 PM */
+
+jQuery(document).ready(function(n){n(document).on("click",".download-cart-btn",function(o){n(".edd-download-buy-button").removeClass("show-pricing");var d=n(this).data("id");console.log(d),n("#edd_download_btn_"+d).addClass("show-pricing")}),n(document).keyup(function(o){27==o.keyCode&&n(".edd-download-buy-button").removeClass("show-pricing")}),n(".edd-download-buy-button .btn-close").click(function(){return n(".edd-download-buy-button").removeClass("show-pricing"),!1})});
