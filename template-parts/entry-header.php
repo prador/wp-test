@@ -43,7 +43,7 @@ if ( is_singular() ) {
 		}
 
 		if ( is_singular() ) {
-			the_title( '<h1 class="entry-title">checking if this work in ', '</h1>' );
+			the_title( '<h1 class="entry-title">should be ok now ', '</h1>' );
 		} else {
 			the_title( '<h2 class="entry-title heading-size-1"><a href="' . esc_url( get_permalink() ) . '">', '</a></h2>' );
 		}
